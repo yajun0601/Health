@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E658D7421954160F00A0BACD /* DoctorDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E658D7411954160F00A0BACD /* DoctorDetailCell.xib */; };
+		E658D74519541D2400A0BACD /* Doc1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E658D74319541D2400A0BACD /* Doc1.jpg */; };
+		E658D74619541D2400A0BACD /* Doc2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E658D74419541D2400A0BACD /* Doc2.jpg */; };
+		E658D74A19542B9F00A0BACD /* MedicalDoctorDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E658D74819542B9F00A0BACD /* MedicalDoctorDetailCell.m */; };
+		E658D74B19542B9F00A0BACD /* MedicalDoctorDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E658D74919542B9F00A0BACD /* MedicalDoctorDetailCell.xib */; };
+		E658D74E195434C600A0BACD /* BNRImageStore.m in Sources */ = {isa = PBXBuildFile; fileRef = E658D74D195434C600A0BACD /* BNRImageStore.m */; };
+		E658D7511954372A00A0BACD /* ControllerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E658D7501954372A00A0BACD /* ControllerTableViewController.m */; };
+		E658D756195438F600A0BACD /* BNRItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E658D753195438F600A0BACD /* BNRItem.m */; };
+		E658D757195438F600A0BACD /* BNRItemStore.m in Sources */ = {isa = PBXBuildFile; fileRef = E658D755195438F600A0BACD /* BNRItemStore.m */; };
 		E6BCE9CA1952C2C200664F4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6BCE9C91952C2C200664F4B /* Foundation.framework */; };
 		E6BCE9CC1952C2C200664F4B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6BCE9CB1952C2C200664F4B /* CoreGraphics.framework */; };
 		E6BCE9CE1952C2C200664F4B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6BCE9CD1952C2C200664F4B /* UIKit.framework */; };
@@ -38,6 +47,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E658D7411954160F00A0BACD /* DoctorDetailCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DoctorDetailCell.xib; sourceTree = "<group>"; };
+		E658D74319541D2400A0BACD /* Doc1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Doc1.jpg; sourceTree = "<group>"; };
+		E658D74419541D2400A0BACD /* Doc2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Doc2.jpg; sourceTree = "<group>"; };
+		E658D74719542B9F00A0BACD /* MedicalDoctorDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedicalDoctorDetailCell.h; sourceTree = "<group>"; };
+		E658D74819542B9F00A0BACD /* MedicalDoctorDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedicalDoctorDetailCell.m; sourceTree = "<group>"; };
+		E658D74919542B9F00A0BACD /* MedicalDoctorDetailCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MedicalDoctorDetailCell.xib; sourceTree = "<group>"; };
+		E658D74C195434BA00A0BACD /* BNRImageStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRImageStore.h; sourceTree = "<group>"; };
+		E658D74D195434C600A0BACD /* BNRImageStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRImageStore.m; sourceTree = "<group>"; };
+		E658D74F1954372A00A0BACD /* ControllerTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControllerTableViewController.h; sourceTree = "<group>"; };
+		E658D7501954372A00A0BACD /* ControllerTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ControllerTableViewController.m; sourceTree = "<group>"; };
+		E658D752195438F600A0BACD /* BNRItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRItem.h; sourceTree = "<group>"; };
+		E658D753195438F600A0BACD /* BNRItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRItem.m; sourceTree = "<group>"; };
+		E658D754195438F600A0BACD /* BNRItemStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRItemStore.h; sourceTree = "<group>"; };
+		E658D755195438F600A0BACD /* BNRItemStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRItemStore.m; sourceTree = "<group>"; };
 		E6BCE9C61952C2C200664F4B /* BaiduMedical.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaiduMedical.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6BCE9C91952C2C200664F4B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E6BCE9CB1952C2C200664F4B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -119,12 +142,24 @@
 		E6BCE9CF1952C2C200664F4B /* BaiduMedical */ = {
 			isa = PBXGroup;
 			children = (
+				E658D752195438F600A0BACD /* BNRItem.h */,
+				E658D753195438F600A0BACD /* BNRItem.m */,
+				E658D754195438F600A0BACD /* BNRItemStore.h */,
+				E658D755195438F600A0BACD /* BNRItemStore.m */,
+				E658D74D195434C600A0BACD /* BNRImageStore.m */,
+				E658D74C195434BA00A0BACD /* BNRImageStore.h */,
 				E6BCE9FC1952D14F00664F4B /* res */,
 				E6BCE9D81952C2C200664F4B /* MedicalAppDelegate.h */,
 				E6BCE9D91952C2C200664F4B /* MedicalAppDelegate.m */,
 				E6BCE9F81952C4F200664F4B /* Medical.storyboard */,
+				E658D7411954160F00A0BACD /* DoctorDetailCell.xib */,
+				E658D74719542B9F00A0BACD /* MedicalDoctorDetailCell.h */,
+				E658D74819542B9F00A0BACD /* MedicalDoctorDetailCell.m */,
+				E658D74919542B9F00A0BACD /* MedicalDoctorDetailCell.xib */,
 				E6BCE9DB1952C2C200664F4B /* Images.xcassets */,
 				E6BCE9D01952C2C200664F4B /* Supporting Files */,
+				E658D74F1954372A00A0BACD /* ControllerTableViewController.h */,
+				E658D7501954372A00A0BACD /* ControllerTableViewController.m */,
 			);
 			path = BaiduMedical;
 			sourceTree = "<group>";
@@ -161,6 +196,8 @@
 		E6BCE9FC1952D14F00664F4B /* res */ = {
 			isa = PBXGroup;
 			children = (
+				E658D74319541D2400A0BACD /* Doc1.jpg */,
+				E658D74419541D2400A0BACD /* Doc2.jpg */,
 				E6BCE9FD1952D14F00664F4B /* body-female-back.png */,
 				E6BCE9FE1952D14F00664F4B /* body-female-front.png */,
 				E6BCE9FF1952D14F00664F4B /* body-male-back.png */,
@@ -247,9 +284,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6BCE9D41952C2C200664F4B /* InfoPlist.strings in Resources */,
+				E658D74B19542B9F00A0BACD /* MedicalDoctorDetailCell.xib in Resources */,
 				E6BCE9DC1952C2C200664F4B /* Images.xcassets in Resources */,
+				E658D74519541D2400A0BACD /* Doc1.jpg in Resources */,
 				E6BCEA021952D14F00664F4B /* body-female-back.png in Resources */,
+				E658D7421954160F00A0BACD /* DoctorDetailCell.xib in Resources */,
 				E6BCEA041952D14F00664F4B /* body-male-back.png in Resources */,
+				E658D74619541D2400A0BACD /* Doc2.jpg in Resources */,
 				E6BCEA061952D14F00664F4B /* logo.png in Resources */,
 				E6BCEA051952D14F00664F4B /* body-male-front.png in Resources */,
 				E6BCEA031952D14F00664F4B /* body-female-front.png in Resources */,
@@ -272,8 +313,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E658D74E195434C600A0BACD /* BNRImageStore.m in Sources */,
+				E658D756195438F600A0BACD /* BNRItem.m in Sources */,
+				E658D74A19542B9F00A0BACD /* MedicalDoctorDetailCell.m in Sources */,
+				E658D757195438F600A0BACD /* BNRItemStore.m in Sources */,
 				E6BCE9DA1952C2C200664F4B /* MedicalAppDelegate.m in Sources */,
 				E6BCE9D61952C2C200664F4B /* main.m in Sources */,
+				E658D7511954372A00A0BACD /* ControllerTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +520,7 @@
 				E6BCE9F41952C2C200664F4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E6BCE9F51952C2C200664F4B /* Build configuration list for PBXNativeTarget "BaiduMedicalTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +529,7 @@
 				E6BCE9F71952C2C200664F4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
